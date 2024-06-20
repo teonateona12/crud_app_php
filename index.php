@@ -13,6 +13,8 @@
             <th>First Name</th>
             <th>Last Name</th>
             <th>Age</th>
+            <th>Update</th>
+            <th>Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -29,6 +31,8 @@
                         <td><?php echo $row["first_name"]; ?></td>
                         <td><?php echo $row["last_name"]; ?></td>
                         <td><?php echo $row["age"]; ?></td>
+                        <td><a href="update_page_1.php?id=<?php echo $row["id"]; ?>" class="btn btn-success">Update</a></td>
+                        <td><a href="delete_page_1.php?id=<?php echo $row["id"]; ?>" class="btn btn-success" class="btn btn-danger">Delete</a></td>
                     </tr>
                     <?php
                 }
