@@ -32,7 +32,7 @@
                         <td><?php echo $row["last_name"]; ?></td>
                         <td><?php echo $row["age"]; ?></td>
                         <td><a href="update_page_1.php?id=<?php echo $row["id"]; ?>" class="btn btn-success">Update</a></td>
-                        <td><a href="delete_page_1.php?id=<?php echo $row["id"]; ?>" class="btn btn-success" class="btn btn-danger">Delete</a></td>
+                        <td><a href="delete_page.php?id=<?php echo $row["id"]; ?>" class="btn btn-danger" class="btn btn-danger">Delete</a></td>
                     </tr>
                     <?php
                 }
